@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		38E23F292591B68900EBE21D /* KingfisherWebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E23F1F2591B68900EBE21D /* KingfisherWebP.framework */; };
 		38E23F2E2591B68900EBE21D /* KingfisherWebPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E23F2D2591B68900EBE21D /* KingfisherWebPTests.swift */; };
-		38E23F302591B68900EBE21D /* KingfisherWebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E23F222591B68900EBE21D /* KingfisherWebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38E23F752591BBB000EBE21D /* libwebp in Frameworks */ = {isa = PBXBuildFile; productRef = 38E23F742591BBB000EBE21D /* libwebp */; };
 		38E23FB02591C39C00EBE21D /* cover.webp in Resources */ = {isa = PBXBuildFile; fileRef = 38E23FA82591C39C00EBE21D /* cover.webp */; };
 		38E23FB12591C39C00EBE21D /* kingfisher.webp in Resources */ = {isa = PBXBuildFile; fileRef = 38E23FA92591C39C00EBE21D /* kingfisher.webp */; };
@@ -19,8 +18,8 @@
 		38E23FB52591C39C00EBE21D /* animation.webp in Resources */ = {isa = PBXBuildFile; fileRef = 38E23FAD2591C39C00EBE21D /* animation.webp */; };
 		38E23FB62591C39C00EBE21D /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E23FAE2591C39C00EBE21D /* cover.png */; };
 		38E23FB72591C39C00EBE21D /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38E23FAF2591C39C00EBE21D /* animation.gif */; };
-		FEAA17F3264BF9CA00B1C2E7 /* CGImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAA17F0264BF9CA00B1C2E7 /* CGImage+WebP.m */; };
-		FEAA17F4264BF9CA00B1C2E7 /* CGImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAA17F2264BF9CA00B1C2E7 /* CGImage+WebP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEAA17F3264BF9CA00B1C2E7 /* KingfisherWebP.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAA17F0264BF9CA00B1C2E7 /* KingfisherWebP.m */; };
+		FEAA17F4264BF9CA00B1C2E7 /* KingfisherWebP.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAA17F2264BF9CA00B1C2E7 /* KingfisherWebP.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		38E23F1F2591B68900EBE21D /* KingfisherWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KingfisherWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38E23F222591B68900EBE21D /* KingfisherWebP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KingfisherWebP.h; sourceTree = "<group>"; };
 		38E23F232591B68900EBE21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E23F282591B68900EBE21D /* KingfisherWebPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingfisherWebPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E23F2D2591B68900EBE21D /* KingfisherWebPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherWebPTests.swift; sourceTree = "<group>"; };
@@ -48,8 +46,8 @@
 		38E23FAD2591C39C00EBE21D /* animation.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = animation.webp; sourceTree = "<group>"; };
 		38E23FAE2591C39C00EBE21D /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
 		38E23FAF2591C39C00EBE21D /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
-		FEAA17F0264BF9CA00B1C2E7 /* CGImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImage+WebP.m"; sourceTree = "<group>"; };
-		FEAA17F2264BF9CA00B1C2E7 /* CGImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImage+WebP.h"; sourceTree = "<group>"; };
+		FEAA17F0264BF9CA00B1C2E7 /* KingfisherWebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingfisherWebP.m; sourceTree = "<group>"; };
+		FEAA17F2264BF9CA00B1C2E7 /* KingfisherWebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingfisherWebP.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +91,8 @@
 		38E23F212591B68900EBE21D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FEAA17EF264BF9CA00B1C2E7 /* KingfisherWebP-ObjC */,
-				38E23F222591B68900EBE21D /* KingfisherWebP.h */,
+				FEAA17F2264BF9CA00B1C2E7 /* KingfisherWebP.h */,
+				FEAA17F0264BF9CA00B1C2E7 /* KingfisherWebP.m */,
 				38E23F232591B68900EBE21D /* Info.plist */,
 			);
 			path = Sources;
@@ -125,23 +123,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		FEAA17EF264BF9CA00B1C2E7 /* KingfisherWebP-ObjC */ = {
-			isa = PBXGroup;
-			children = (
-				FEAA17F0264BF9CA00B1C2E7 /* CGImage+WebP.m */,
-				FEAA17F1264BF9CA00B1C2E7 /* include */,
-			);
-			path = "KingfisherWebP-ObjC";
-			sourceTree = "<group>";
-		};
-		FEAA17F1264BF9CA00B1C2E7 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				FEAA17F2264BF9CA00B1C2E7 /* CGImage+WebP.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -149,8 +130,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEAA17F4264BF9CA00B1C2E7 /* CGImage+WebP.h in Headers */,
-				38E23F302591B68900EBE21D /* KingfisherWebP.h in Headers */,
+				FEAA17F4264BF9CA00B1C2E7 /* KingfisherWebP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEAA17F3264BF9CA00B1C2E7 /* CGImage+WebP.m in Sources */,
+				FEAA17F3264BF9CA00B1C2E7 /* KingfisherWebP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

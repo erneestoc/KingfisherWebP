@@ -6,7 +6,7 @@
 //
 //
 
-#import "CGImage+WebP.h"
+#import "KingfisherWebP.h"
 
 #import <Accelerate/Accelerate.h>
 #import <CoreFoundation/CoreFoundation.h>
