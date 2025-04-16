@@ -20,7 +20,7 @@
 		38E23FB62591C39C00EBE21D /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E23FAE2591C39C00EBE21D /* cover.png */; };
 		38E23FB72591C39C00EBE21D /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38E23FAF2591C39C00EBE21D /* animation.gif */; };
 		FEAA17F3264BF9CA00B1C2E7 /* CGImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAA17F0264BF9CA00B1C2E7 /* CGImage+WebP.m */; };
-		FEAA17F4264BF9CA00B1C2E7 /* CGImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAA17F2264BF9CA00B1C2E7 /* CGImage+WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEAA17F4264BF9CA00B1C2E7 /* CGImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAA17F2264BF9CA00B1C2E7 /* CGImage+WebP.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
